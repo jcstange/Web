@@ -1,0 +1,146 @@
+@charset "utf-8";
+	<style>
+	
+	
+	/*product.php*/
+	
+	div#contentprod {
+		float:left;
+		position:relative;
+		top:100px;
+	}
+    div#prodcontainer {
+		float:left;
+		position:relative;
+		top:100px;
+		width:500px;
+		border-radius:9px;
+		background-color:#DDDDDD;
+		border:1px solid;
+		clear:both;
+	}
+	div#prphoto {
+		float:left;
+		width:29%;
+		height:auto;
+	}
+	div#details {
+		float:left;
+		width:70%;
+	}
+	#prodphoto {
+		border-radius:9px;
+		align:absmiddle;
+		width:100%;
+	}
+	
+	
+	
+	/*store.php*/		
+			
+	div#content {
+		position:relative;
+		top:100px;
+		float:left;
+		margin:auto;
+		width:70%;
+		/*border:1px solid black;*/
+	}
+	div#produto{
+		background-color:#DDDDDD;
+		float:left;
+		border-radius:9px;
+		width:180px;
+		font-family:allan;
+		font-size:12px;	
+		margin:4px;
+	}
+	div#produto:hover {
+		background-color: #B6B6B6;
+	}
+	div#pfoto{
+		float:left;
+		width:35%;
+		vertical-align:central;
+	}
+	div#descr{
+		float:left;
+		width:65%;
+	}
+	.img{
+		width:90%;
+		margin:5px;
+	}
+	div#storemenu{
+		width:20%;
+		background-color:#DDDDDD;
+		float:left;
+		border-radius:9px;
+		border:1px solid;
+		font-family:	allan;
+	}
+
+	/*cart.php*/
+
+div#content2 { 
+position:relative;
+		top:100px;
+		float:left;
+		margin:auto;
+		width:70%;
+}
+	
+div#vazio { 
+	vertical-align:central;
+	text-align:center;
+	height:100px;
+	width:100%;
+	 font-size:25px;
+	 font-family:Calibri;
+}
+div#carrinho {
+	float:left;
+	clear:both;
+	width:100%;
+	height:80px;
+	font-family:calibri;
+	border:1px solid;
+	border-radius:9px;
+	text-align:center;
+	line-height:80px;
+	margin:1px;
+}
+div#tudo {
+	margin:	auto;
+	align-content:center;
+}
+#table1 {
+	line-height:52px;
+	vertical-align:middle;
+	}
+
+	/*template_header_store*/ 
+	
+	
+div#header {
+	margin:	auto;
+	top:0;
+	vertical-align:center;
+	position:absolute;
+	height:100px;
+	background:white;
+	width:70%;
+}
+div#logo {
+	float:left;
+	width:30%;
+	height:100px;
+}
+div#corpo {
+	float: left;
+	width: 70%;
+	height:100%;
+	vertical-align: middle;
+	text-align:center;
+}
+</style>
